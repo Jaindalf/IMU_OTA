@@ -1,8 +1,7 @@
 name: Sync version.txt with Release
 
 on:
-  release:
-    types: [published]
+    push:
 
 permissions:
   contents: write
