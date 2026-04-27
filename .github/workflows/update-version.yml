@@ -2,7 +2,7 @@ name: Sync version.txt with Release
 
 on:
     release:
-        types: [published]
+        types: [published,created]
 
 permissions:
   contents: write
